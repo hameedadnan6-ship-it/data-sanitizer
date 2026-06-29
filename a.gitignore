@@ -1,0 +1,21 @@
+# Exclude Python cache and virtual environments
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Exclude macOS system files
+.DS_Store
+
+# Exclude Streamlit specific cache
+.streamlit/
+
+# 🛑 EXCLUDE ALL LOCAL DUMMY DATA AND OUTPUTS 🛑
+incoming_data_room/
+sanitized_data_room/
+*.zip
+*.txt
+
+# (Optional) If you want to keep a specific sample text file to show 
+# how it works, you can un-ignore it by adding an exclamation point:
+# !sample_contract_format.txt
